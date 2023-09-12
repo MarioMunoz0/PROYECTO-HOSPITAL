@@ -83,6 +83,16 @@ namespace PROYECTO_HOSPITAL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO {
+            get {
+                object obj = ResourceManager.GetObject("cropped-IMAGOTIPO-PRINCIPAL-COLOR-CORPORATIVO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap editar {
             get {
                 object obj = ResourceManager.GetObject("editar", resourceCulture);

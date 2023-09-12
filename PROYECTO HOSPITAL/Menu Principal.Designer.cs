@@ -72,7 +72,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.DarkViolet;
+            panel2.BackColor = Color.FromArgb(128, 255, 255);
             panel2.Controls.Add(label8);
             panel2.Controls.Add(pictureBox8);
             panel2.Controls.Add(label6);
@@ -94,12 +94,13 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.ForeColor = Color.White;
+            label8.ForeColor = Color.Black;
             label8.Location = new Point(55, 354);
             label8.Name = "label8";
             label8.Size = new Size(62, 26);
             label8.TabIndex = 17;
             label8.Text = "Salir";
+            label8.Click += label8_Click;
             // 
             // pictureBox8
             // 
@@ -110,12 +111,13 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 16;
             pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.ForeColor = Color.White;
+            label6.ForeColor = Color.Black;
             label6.Location = new Point(53, 251);
             label6.Name = "label6";
             label6.Size = new Size(115, 26);
@@ -137,7 +139,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.ForeColor = Color.White;
+            label7.ForeColor = Color.Black;
             label7.Location = new Point(53, 201);
             label7.Name = "label7";
             label7.Size = new Size(129, 26);
@@ -158,7 +160,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.White;
+            label5.ForeColor = Color.Black;
             label5.Location = new Point(53, 151);
             label5.Name = "label5";
             label5.Size = new Size(109, 26);
@@ -179,7 +181,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(53, 101);
             label4.Name = "label4";
             label4.Size = new Size(124, 26);
@@ -198,7 +200,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.BlueViolet;
+            panel3.BackColor = Color.DarkTurquoise;
             panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Controls.Add(pictureBox2);
             panel3.Controls.Add(label3);
@@ -224,7 +226,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(83, 49);
             label3.Name = "label3";
             label3.Size = new Size(137, 19);
@@ -235,7 +237,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(83, 30);
             label2.Name = "label2";
             label2.Size = new Size(102, 19);
@@ -246,7 +248,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(83, 11);
             label1.Name = "label1";
             label1.Size = new Size(98, 19);
@@ -265,10 +267,10 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.ChristusHospBanner;
-            pictureBox3.Location = new Point(271, 12);
+            pictureBox3.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
+            pictureBox3.Location = new Point(344, 74);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(486, 342);
+            pictureBox3.Size = new Size(377, 244);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;

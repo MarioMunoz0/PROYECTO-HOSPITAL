@@ -45,7 +45,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DarkViolet;
+            panel1.BackColor = Color.FromArgb(128, 255, 255);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -55,7 +55,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.a3d825e88c7b73e7e370ddeab30c974b;
+            pictureBox1.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
             pictureBox1.Location = new Point(38, 88);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 146);
