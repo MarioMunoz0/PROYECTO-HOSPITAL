@@ -281,7 +281,6 @@
             Controls.Add(pictureBox3);
             Controls.Add(panel1);
             Name = "Menu_Principal";
-            Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu_Principal";
             panel1.ResumeLayout(false);

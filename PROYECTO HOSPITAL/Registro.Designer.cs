@@ -176,7 +176,6 @@
             Controls.Add(label1);
             Controls.Add(panel1);
             Name = "Registro";
-            Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Registro";
             panel1.ResumeLayout(false);

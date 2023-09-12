@@ -170,7 +170,6 @@
             Controls.Add(txtUsuario);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Login";
-            Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Hospital OBISPADO´S";
             Load += Login_Load;
