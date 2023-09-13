@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_HOSPITAL
 {
-    partial class Empleados
+    partial class Pacientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel3 = new Panel();
-            pictureBox2 = new PictureBox();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
             panel2 = new Panel();
             panel4 = new Panel();
             pictureBox12 = new PictureBox();
             pictureBox11 = new PictureBox();
-            btnInformes = new Button();
+            button4 = new Button();
             pictureBox10 = new PictureBox();
             btnRegresar = new Button();
             panel5 = new Panel();
@@ -63,22 +57,23 @@
             label10 = new Label();
             label11 = new Label();
             pictureBox9 = new PictureBox();
-            label13 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label12 = new Label();
-            textBox3 = new TextBox();
-            label14 = new Label();
+            label34 = new Label();
+            textBox5 = new TextBox();
+            label18 = new Label();
+            checkBox3 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox1 = new CheckBox();
+            label17 = new Label();
+            label16 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             textBox4 = new TextBox();
             label15 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            label16 = new Label();
-            label17 = new Label();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            label18 = new Label();
-            textBox5 = new TextBox();
+            textBox3 = new TextBox();
+            label14 = new Label();
+            textBox2 = new TextBox();
+            label12 = new Label();
+            textBox1 = new TextBox();
+            label13 = new Label();
             panel6 = new Panel();
             button2 = new Button();
             button1 = new Button();
@@ -90,16 +85,8 @@
             label31 = new Label();
             textBox9 = new TextBox();
             label30 = new Label();
-            textBox8 = new TextBox();
-            label29 = new Label();
-            textBox7 = new TextBox();
-            label28 = new Label();
             textBox6 = new TextBox();
             label27 = new Label();
-            label34 = new Label();
-            panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
@@ -118,73 +105,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel6.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.DarkTurquoise;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(pictureBox2);
-            panel3.Controls.Add(label3);
-            panel3.Controls.Add(label2);
-            panel3.Controls.Add(label1);
-            panel3.Controls.Add(pictureBox1);
-            panel3.Location = new Point(-1, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(250, 86);
-            panel3.TabIndex = 8;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.menu;
-            pictureBox2.Location = new Point(215, -1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(34, 31);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.Black;
-            label3.Location = new Point(83, 49);
-            label3.Name = "label3";
-            label3.Size = new Size(137, 19);
-            label3.TabIndex = 3;
-            label3.Text = "Support@gmail.com";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.Black;
-            label2.Location = new Point(83, 30);
-            label2.Name = "label2";
-            label2.Size = new Size(102, 19);
-            label2.TabIndex = 2;
-            label2.Text = "Jackson, Smith";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.Black;
-            label1.Location = new Point(83, 11);
-            label1.Name = "label1";
-            label1.Size = new Size(98, 19);
-            label1.TabIndex = 1;
-            label1.Text = "Administrador";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.img_337531;
-            pictureBox1.Location = new Point(1, 8);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(76, 67);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -205,14 +125,14 @@
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(250, 391);
-            panel2.TabIndex = 9;
+            panel2.TabIndex = 32;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(128, 255, 255);
             panel4.Controls.Add(pictureBox12);
             panel4.Controls.Add(pictureBox11);
-            panel4.Controls.Add(btnInformes);
+            panel4.Controls.Add(button4);
             panel4.Controls.Add(pictureBox10);
             panel4.Controls.Add(btnRegresar);
             panel4.Controls.Add(panel5);
@@ -229,7 +149,7 @@
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(161, 103);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox12.TabIndex = 34;
+            pictureBox12.TabIndex = 44;
             pictureBox12.TabStop = false;
             // 
             // pictureBox11
@@ -242,19 +162,19 @@
             pictureBox11.TabIndex = 33;
             pictureBox11.TabStop = false;
             // 
-            // btnInformes
+            // button4
             // 
-            btnInformes.BackColor = Color.FromArgb(128, 255, 255);
-            btnInformes.Cursor = Cursors.Hand;
-            btnInformes.FlatStyle = FlatStyle.Popup;
-            btnInformes.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            btnInformes.ForeColor = Color.Black;
-            btnInformes.Location = new Point(0, 86);
-            btnInformes.Name = "btnInformes";
-            btnInformes.Size = new Size(250, 54);
-            btnInformes.TabIndex = 32;
-            btnInformes.Text = "Informes";
-            btnInformes.UseVisualStyleBackColor = false;
+            button4.BackColor = Color.FromArgb(128, 255, 255);
+            button4.Cursor = Cursors.Hand;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.Black;
+            button4.Location = new Point(0, 86);
+            button4.Name = "button4";
+            button4.Size = new Size(250, 54);
+            button4.TabIndex = 32;
+            button4.Text = "Informes";
+            button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox10
             // 
@@ -279,7 +199,6 @@
             btnRegresar.TabIndex = 30;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = false;
-            btnRegresar.Click += btnRegresar_Click;
             // 
             // panel5
             // 
@@ -520,158 +439,169 @@
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
             // 
-            // label13
+            // label34
             // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.White;
-            label13.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label13.Location = new Point(274, 81);
-            label13.Name = "label13";
-            label13.Size = new Size(90, 13);
-            label13.TabIndex = 11;
-            label13.Text = "No. Empleado:";
+            label34.AutoSize = true;
+            label34.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label34.ForeColor = Color.Black;
+            label34.Location = new Point(370, 20);
+            label34.Name = "label34";
+            label34.Size = new Size(264, 31);
+            label34.TabIndex = 33;
+            label34.Text = "Registro de Pacientes";
             // 
-            // textBox1
+            // textBox5
             // 
-            textBox1.Location = new Point(370, 72);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(47, 23);
-            textBox1.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(409, 109);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(101, 23);
-            textBox2.TabIndex = 14;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.White;
-            label12.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(274, 116);
-            label12.Name = "label12";
-            label12.Size = new Size(54, 13);
-            label12.TabIndex = 13;
-            label12.Text = "Nombre:";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(409, 151);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(101, 23);
-            textBox3.TabIndex = 16;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.BackColor = Color.White;
-            label14.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.Location = new Point(274, 155);
-            label14.Name = "label14";
-            label14.Size = new Size(103, 13);
-            label14.TabIndex = 15;
-            label14.Text = "Apellido paterno:";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(409, 191);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(101, 23);
-            textBox4.TabIndex = 18;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.BackColor = Color.White;
-            label15.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(274, 195);
-            label15.Name = "label15";
-            label15.Size = new Size(105, 13);
-            label15.TabIndex = 17;
-            label15.Text = "Apellido materno:";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(409, 231);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(103, 23);
-            dateTimePicker1.TabIndex = 19;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.BackColor = Color.White;
-            label16.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(274, 238);
-            label16.Name = "label16";
-            label16.Size = new Size(129, 13);
-            label16.TabIndex = 20;
-            label16.Text = "Fecha de nacimiento:";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.BackColor = Color.White;
-            label17.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label17.Location = new Point(274, 277);
-            label17.Name = "label17";
-            label17.Size = new Size(52, 13);
-            label17.TabIndex = 22;
-            label17.Text = "Genero:";
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.BackColor = Color.White;
-            checkBox1.Location = new Point(409, 272);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(70, 19);
-            checkBox1.TabIndex = 24;
-            checkBox1.Text = "Hombre";
-            checkBox1.UseVisualStyleBackColor = false;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.BackColor = Color.White;
-            checkBox2.Location = new Point(494, 272);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(57, 19);
-            checkBox2.TabIndex = 25;
-            checkBox2.Text = "Mujer";
-            checkBox2.UseVisualStyleBackColor = false;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.BackColor = Color.White;
-            checkBox3.Location = new Point(566, 272);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(50, 19);
-            checkBox3.TabIndex = 26;
-            checkBox3.Text = "Otro";
-            checkBox3.UseVisualStyleBackColor = false;
+            textBox5.Location = new Point(411, 304);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(207, 23);
+            textBox5.TabIndex = 49;
             // 
             // label18
             // 
             label18.AutoSize = true;
             label18.BackColor = Color.White;
             label18.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label18.Location = new Point(274, 311);
+            label18.Location = new Point(276, 314);
             label18.Name = "label18";
             label18.Size = new Size(65, 13);
-            label18.TabIndex = 27;
+            label18.TabIndex = 48;
             label18.Text = "Dirección:";
             // 
-            // textBox5
+            // checkBox3
             // 
-            textBox5.Location = new Point(409, 301);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(207, 23);
-            textBox5.TabIndex = 28;
+            checkBox3.AutoSize = true;
+            checkBox3.BackColor = Color.White;
+            checkBox3.Location = new Point(568, 275);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(50, 19);
+            checkBox3.TabIndex = 47;
+            checkBox3.Text = "Otro";
+            checkBox3.UseVisualStyleBackColor = false;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.BackColor = Color.White;
+            checkBox2.Location = new Point(496, 275);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(57, 19);
+            checkBox2.TabIndex = 46;
+            checkBox2.Text = "Mujer";
+            checkBox2.UseVisualStyleBackColor = false;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.White;
+            checkBox1.Location = new Point(411, 275);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(70, 19);
+            checkBox1.TabIndex = 45;
+            checkBox1.Text = "Hombre";
+            checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.BackColor = Color.White;
+            label17.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label17.Location = new Point(276, 280);
+            label17.Name = "label17";
+            label17.Size = new Size(52, 13);
+            label17.TabIndex = 44;
+            label17.Text = "Genero:";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = Color.White;
+            label16.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.Location = new Point(276, 241);
+            label16.Name = "label16";
+            label16.Size = new Size(129, 13);
+            label16.TabIndex = 43;
+            label16.Text = "Fecha de nacimiento:";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(411, 234);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(103, 23);
+            dateTimePicker1.TabIndex = 42;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(411, 194);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(101, 23);
+            textBox4.TabIndex = 41;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.White;
+            label15.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.Location = new Point(276, 198);
+            label15.Name = "label15";
+            label15.Size = new Size(105, 13);
+            label15.TabIndex = 40;
+            label15.Text = "Apellido materno:";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(411, 154);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(101, 23);
+            textBox3.TabIndex = 39;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.White;
+            label14.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.Location = new Point(276, 158);
+            label14.Name = "label14";
+            label14.Size = new Size(103, 13);
+            label14.TabIndex = 38;
+            label14.Text = "Apellido paterno:";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(411, 112);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(101, 23);
+            textBox2.TabIndex = 37;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.White;
+            label12.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(276, 119);
+            label12.Name = "label12";
+            label12.Size = new Size(54, 13);
+            label12.TabIndex = 36;
+            label12.Text = "Nombre:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(372, 75);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(47, 23);
+            textBox1.TabIndex = 35;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.White;
+            label13.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.Location = new Point(276, 84);
+            label13.Name = "label13";
+            label13.Size = new Size(85, 13);
+            label13.TabIndex = 34;
+            label13.Text = "No. Paciente:";
             // 
             // panel6
             // 
@@ -686,16 +616,12 @@
             panel6.Controls.Add(label31);
             panel6.Controls.Add(textBox9);
             panel6.Controls.Add(label30);
-            panel6.Controls.Add(textBox8);
-            panel6.Controls.Add(label29);
-            panel6.Controls.Add(textBox7);
-            panel6.Controls.Add(label28);
             panel6.Controls.Add(textBox6);
             panel6.Controls.Add(label27);
             panel6.Location = new Point(258, 61);
             panel6.Name = "panel6";
             panel6.Size = new Size(512, 313);
-            panel6.TabIndex = 29;
+            panel6.TabIndex = 50;
             // 
             // button2
             // 
@@ -794,42 +720,6 @@
             label30.TabIndex = 30;
             label30.Text = "NSS:";
             // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(440, 11);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(50, 23);
-            textBox8.TabIndex = 32;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.BackColor = Color.White;
-            label29.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label29.Location = new Point(327, 20);
-            label29.Name = "label29";
-            label29.Size = new Size(107, 13);
-            label29.TabIndex = 31;
-            label29.Text = "No. Especialidad:";
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(258, 11);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(50, 23);
-            textBox7.TabIndex = 30;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.BackColor = Color.White;
-            label28.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label28.Location = new Point(178, 20);
-            label28.Name = "label28";
-            label28.Size = new Size(74, 13);
-            label28.TabIndex = 30;
-            label28.Text = "No. Puesto:";
-            // 
             // textBox6
             // 
             textBox6.Location = new Point(151, 274);
@@ -848,18 +738,7 @@
             label27.TabIndex = 30;
             label27.Text = "Correo:";
             // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label34.ForeColor = Color.Black;
-            label34.Location = new Point(370, 20);
-            label34.Name = "label34";
-            label34.Size = new Size(283, 31);
-            label34.TabIndex = 9;
-            label34.Text = "Registro de Empleados";
-            // 
-            // Empleados
+            // Pacientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -881,16 +760,11 @@
             Controls.Add(label12);
             Controls.Add(textBox1);
             Controls.Add(label13);
-            Controls.Add(panel2);
-            Controls.Add(panel3);
             Controls.Add(panel6);
-            Name = "Empleados";
+            Controls.Add(panel2);
+            Name = "Pacientes";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Empleados";
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Text = "Pacientes";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel4.ResumeLayout(false);
@@ -918,13 +792,19 @@
 
         #endregion
 
-        private Panel panel3;
-        private PictureBox pictureBox2;
-        private Label label3;
-        private Label label2;
-        private Label label1;
-        private PictureBox pictureBox1;
         private Panel panel2;
+        private Panel panel4;
+        private PictureBox pictureBox12;
+        private PictureBox pictureBox11;
+        private Button button4;
+        private PictureBox pictureBox10;
+        private Button btnRegresar;
+        private Panel panel5;
+        private PictureBox pictureBox15;
+        private Label label24;
+        private Label label25;
+        private Label label26;
+        private PictureBox pictureBox16;
         private Label label8;
         private PictureBox pictureBox8;
         private Label label6;
@@ -941,36 +821,24 @@
         private Label label10;
         private Label label11;
         private PictureBox pictureBox9;
-        private Label label13;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label12;
-        private TextBox textBox3;
-        private Label label14;
+        private Label label34;
+        private TextBox textBox5;
+        private Label label18;
+        private CheckBox checkBox3;
+        private CheckBox checkBox2;
+        private CheckBox checkBox1;
+        private Label label17;
+        private Label label16;
+        private DateTimePicker dateTimePicker1;
         private TextBox textBox4;
         private Label label15;
-        private DateTimePicker dateTimePicker1;
-        private Label label16;
-        private Panel panel4;
-        private Panel panel5;
-        private PictureBox pictureBox15;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private PictureBox pictureBox16;
-        private Label label17;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private Label label18;
-        private TextBox textBox5;
+        private TextBox textBox3;
+        private Label label14;
+        private TextBox textBox2;
+        private Label label12;
+        private TextBox textBox1;
+        private Label label13;
         private Panel panel6;
-        private TextBox textBox8;
-        private Label label29;
-        private TextBox textBox7;
-        private Label label28;
-        private TextBox textBox6;
-        private Label label27;
         private Button button2;
         private Button button1;
         private TextBox textBox12;
@@ -981,11 +849,7 @@
         private Label label31;
         private TextBox textBox9;
         private Label label30;
-        private Label label34;
-        private Button btnRegresar;
-        private PictureBox pictureBox10;
-        private Button btnInformes;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox12;
+        private TextBox textBox6;
+        private Label label27;
     }
 }

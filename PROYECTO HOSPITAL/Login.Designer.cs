@@ -85,10 +85,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(472, 9);
+            label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(470, 9);
             label1.Name = "label1";
-            label1.Size = new Size(100, 33);
+            label1.Size = new Size(95, 31);
             label1.TabIndex = 7;
             label1.Text = "LOGIN";
             // 
