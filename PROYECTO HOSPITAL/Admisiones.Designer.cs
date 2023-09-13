@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_HOSPITAL
 {
-    partial class RegistrosPac
+    partial class Admisiones
     {
         /// <summary>
         /// Required designer variable.
@@ -57,14 +57,34 @@
             label10 = new Label();
             label11 = new Label();
             pictureBox9 = new PictureBox();
-            panel3 = new Panel();
-            button3 = new Button();
+            panel6 = new Panel();
             button1 = new Button();
+            textBox6 = new TextBox();
+            label27 = new Label();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            textBox2 = new TextBox();
+            label16 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label2 = new Label();
+            dateTimePicker2 = new DateTimePicker();
+            label3 = new Label();
+            textBox3 = new TextBox();
+            label12 = new Label();
+            textBox4 = new TextBox();
+            label13 = new Label();
+            textBox5 = new TextBox();
+            label14 = new Label();
             dataGridView1 = new DataGridView();
             button2 = new Button();
+            button3 = new Button();
+            button5 = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            button6 = new Button();
+            pictureBox1 = new PictureBox();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
@@ -81,8 +101,9 @@
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            panel3.SuspendLayout();
+            panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -104,11 +125,13 @@
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(250, 391);
-            panel2.TabIndex = 32;
+            panel2.TabIndex = 33;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(128, 255, 255);
+            panel4.Controls.Add(pictureBox1);
+            panel4.Controls.Add(button6);
             panel4.Controls.Add(pictureBox12);
             panel4.Controls.Add(pictureBox11);
             panel4.Controls.Add(button4);
@@ -124,7 +147,7 @@
             // pictureBox12
             // 
             pictureBox12.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
-            pictureBox12.Location = new Point(40, 171);
+            pictureBox12.Location = new Point(40, 197);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(161, 103);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
@@ -133,8 +156,8 @@
             // 
             // pictureBox11
             // 
-            pictureBox11.Image = Properties.Resources.medico1;
-            pictureBox11.Location = new Point(12, 91);
+            pictureBox11.Image = Properties.Resources.cama;
+            pictureBox11.Location = new Point(4, 91);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(54, 44);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
@@ -152,7 +175,7 @@
             button4.Name = "button4";
             button4.Size = new Size(250, 54);
             button4.TabIndex = 32;
-            button4.Text = "Pacientes";
+            button4.Text = "Habitaciones";
             button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox10
@@ -418,66 +441,236 @@
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
             // 
-            // panel3
+            // panel6
             // 
-            panel3.BackColor = Color.White;
-            panel3.Controls.Add(button3);
-            panel3.Controls.Add(button1);
-            panel3.Controls.Add(dataGridView1);
-            panel3.Controls.Add(button2);
-            panel3.Location = new Point(259, 9);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(512, 369);
-            panel3.TabIndex = 44;
-            // 
-            // button3
-            // 
-            button3.BackColor = SystemColors.Control;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(327, 290);
-            button3.Name = "button3";
-            button3.Size = new Size(115, 44);
-            button3.TabIndex = 43;
-            button3.Text = "Imprimir";
-            button3.UseVisualStyleBackColor = false;
+            panel6.BackColor = Color.White;
+            panel6.Controls.Add(label14);
+            panel6.Controls.Add(textBox5);
+            panel6.Controls.Add(label13);
+            panel6.Controls.Add(textBox4);
+            panel6.Controls.Add(label12);
+            panel6.Controls.Add(textBox3);
+            panel6.Controls.Add(label3);
+            panel6.Controls.Add(dateTimePicker2);
+            panel6.Controls.Add(label2);
+            panel6.Controls.Add(dateTimePicker1);
+            panel6.Controls.Add(label16);
+            panel6.Controls.Add(textBox2);
+            panel6.Controls.Add(label1);
+            panel6.Controls.Add(textBox1);
+            panel6.Controls.Add(textBox6);
+            panel6.Controls.Add(label27);
+            panel6.Location = new Point(260, 8);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(512, 189);
+            panel6.TabIndex = 51;
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.Control;
+            button1.BackColor = Color.FromArgb(128, 255, 255);
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(206, 290);
+            button1.Location = new Point(646, 213);
             button1.Name = "button1";
-            button1.Size = new Size(115, 44);
-            button1.TabIndex = 42;
-            button1.Text = "Eliminar";
+            button1.Size = new Size(115, 33);
+            button1.TabIndex = 39;
+            button1.Text = "Registrar datos";
             button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(368, 151);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(117, 23);
+            textBox6.TabIndex = 30;
+            textBox6.TextChanged += textBox6_TextChanged;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.BackColor = Color.White;
+            label27.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label27.Location = new Point(24, 14);
+            label27.Name = "label27";
+            label27.Size = new Size(103, 13);
+            label27.TabIndex = 30;
+            label27.Text = "No. de Admisión:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(133, 10);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(101, 23);
+            textBox1.TabIndex = 41;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.White;
+            label1.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(24, 55);
+            label1.Name = "label1";
+            label1.Size = new Size(103, 13);
+            label1.TabIndex = 42;
+            label1.Text = "No. de Paciente:";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(133, 51);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(101, 23);
+            textBox2.TabIndex = 43;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = Color.White;
+            label16.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.Location = new Point(24, 92);
+            label16.Name = "label16";
+            label16.Size = new Size(117, 13);
+            label16.TabIndex = 44;
+            label16.Text = "Fecha de admisión:";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(147, 85);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(103, 23);
+            dateTimePicker1.TabIndex = 45;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.White;
+            label2.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(24, 125);
+            label2.Name = "label2";
+            label2.Size = new Size(117, 13);
+            label2.TabIndex = 46;
+            label2.Text = "Fecha de admisión:";
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Format = DateTimePickerFormat.Short;
+            dateTimePicker2.Location = new Point(147, 118);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(103, 23);
+            dateTimePicker2.TabIndex = 47;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.White;
+            label3.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(265, 14);
+            label3.Name = "label3";
+            label3.Size = new Size(94, 13);
+            label3.TabIndex = 48;
+            label3.Text = "No. de Medico:";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(365, 10);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(101, 23);
+            textBox3.TabIndex = 49;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.White;
+            label12.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(265, 55);
+            label12.Name = "label12";
+            label12.Size = new Size(78, 13);
+            label12.TabIndex = 50;
+            label12.Text = "Diagnostico:";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(349, 48);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(141, 90);
+            textBox4.TabIndex = 51;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.White;
+            label13.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.Location = new Point(24, 155);
+            label13.Name = "label13";
+            label13.Size = new Size(114, 13);
+            label13.TabIndex = 52;
+            label13.Text = "No. de Habitación:";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(144, 148);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(52, 23);
+            textBox5.TabIndex = 53;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.White;
+            label14.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.Location = new Point(211, 155);
+            label14.Name = "label14";
+            label14.Size = new Size(151, 13);
+            label14.TabIndex = 54;
+            label14.Text = "Procedimiento Realizado:";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(21, 27);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
+            dataGridView1.Location = new Point(260, 203);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(471, 247);
-            dataGridView1.TabIndex = 32;
+            dataGridView1.Size = new Size(362, 177);
+            dataGridView1.TabIndex = 52;
             // 
             // button2
             // 
-            button2.BackColor = SystemColors.Control;
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(85, 290);
+            button2.Location = new Point(646, 335);
             button2.Name = "button2";
-            button2.Size = new Size(115, 44);
-            button2.TabIndex = 41;
-            button2.Text = "Modificar";
-            button2.UseVisualStyleBackColor = false;
+            button2.Size = new Size(115, 33);
+            button2.TabIndex = 40;
+            button2.Text = "Imprimir";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Cursor = Cursors.Hand;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(646, 253);
+            button3.Name = "button3";
+            button3.Size = new Size(115, 33);
+            button3.TabIndex = 53;
+            button3.Text = "Modificar";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Cursor = Cursors.Hand;
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.Location = new Point(646, 293);
+            button5.Name = "button5";
+            button5.Size = new Size(115, 33);
+            button5.TabIndex = 54;
+            button5.Text = "Eliminar";
+            button5.UseVisualStyleBackColor = true;
             // 
             // Column1
             // 
@@ -494,15 +687,50 @@
             Column3.HeaderText = "Column3";
             Column3.Name = "Column3";
             // 
-            // RegistrosPac
+            // Column4
+            // 
+            Column4.HeaderText = "Column4";
+            Column4.Name = "Column4";
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.FromArgb(128, 255, 255);
+            button6.Cursor = Cursors.Hand;
+            button6.FlatStyle = FlatStyle.Popup;
+            button6.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.ForeColor = Color.Black;
+            button6.Location = new Point(0, 140);
+            button6.Name = "button6";
+            button6.Size = new Size(250, 54);
+            button6.TabIndex = 45;
+            button6.Text = "Examenes";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.examenes_de_salud;
+            pictureBox1.Location = new Point(5, 145);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(54, 44);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 46;
+            pictureBox1.TabStop = false;
+            // 
+            // Admisiones
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(780, 391);
-            Controls.Add(panel3);
+            Controls.Add(button5);
+            Controls.Add(button3);
+            Controls.Add(dataGridView1);
+            Controls.Add(panel6);
             Controls.Add(panel2);
-            Name = "RegistrosPac";
-            Text = "RegistroPac";
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "Admisiones";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Admisiones";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel4.ResumeLayout(false);
@@ -522,8 +750,10 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            panel3.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -558,13 +788,33 @@
         private Label label10;
         private Label label11;
         private PictureBox pictureBox9;
-        private Panel panel3;
-        private Button button3;
+        private Panel panel6;
+        private TextBox textBox1;
         private Button button1;
+        private TextBox textBox6;
+        private Label label27;
+        private Label label1;
+        private TextBox textBox2;
+        private Label label16;
+        private Label label14;
+        private TextBox textBox5;
+        private Label label13;
+        private TextBox textBox4;
+        private Label label12;
+        private TextBox textBox3;
+        private Label label3;
+        private DateTimePicker dateTimePicker2;
+        private Label label2;
+        private DateTimePicker dateTimePicker1;
         private DataGridView dataGridView1;
         private Button button2;
+        private Button button3;
+        private Button button5;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private PictureBox pictureBox1;
+        private Button button6;
     }
 }

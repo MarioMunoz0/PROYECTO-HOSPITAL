@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_HOSPITAL
 {
-    partial class RegistrosEmp
+    partial class RegistrosEmpleados
     {
         /// <summary>
         /// Required designer variable.
@@ -59,11 +59,11 @@
             pictureBox9 = new PictureBox();
             button2 = new Button();
             dataGridView1 = new DataGridView();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
             Nombre = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             button1 = new Button();
             button3 = new Button();
             panel3 = new Panel();
@@ -443,30 +443,30 @@
             dataGridView1.Size = new Size(471, 247);
             dataGridView1.TabIndex = 32;
             // 
-            // Column3
+            // Nombre
             // 
-            Column3.HeaderText = "Column3";
-            Column3.Name = "Column3";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Column2";
-            Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Column1";
-            Column1.Name = "Column1";
+            Nombre.HeaderText = "Column1";
+            Nombre.Name = "Nombre";
             // 
             // Column4
             // 
             Column4.HeaderText = "Column4";
             Column4.Name = "Column4";
             // 
-            // Nombre
+            // Column1
             // 
-            Nombre.HeaderText = "Column1";
-            Nombre.Name = "Nombre";
+            Column1.HeaderText = "Column1";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Column2";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Column3";
+            Column3.Name = "Column3";
             // 
             // button1
             // 
@@ -506,7 +506,7 @@
             panel3.Size = new Size(512, 369);
             panel3.TabIndex = 43;
             // 
-            // RegistrosEmp
+            // RegistrosEmpleados
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -514,9 +514,9 @@
             Controls.Add(panel2);
             Controls.Add(panel3);
             MaximizeBox = false;
-            Name = "RegistrosEmp";
+            Name = "RegistrosEmpleados";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "RegistrosEmp";
+            Text = "Registros de Empleados";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel4.ResumeLayout(false);

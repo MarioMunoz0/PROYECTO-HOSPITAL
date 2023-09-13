@@ -66,10 +66,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(453, 9);
+            label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(451, 9);
             label1.Name = "label1";
-            label1.Size = new Size(138, 33);
+            label1.Size = new Size(144, 31);
             label1.TabIndex = 8;
             label1.Text = "REGISTRO";
             // 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTO_HOSPITAL
 {
-    public partial class RegistrosEmp : Form
+    public partial class RegistrosEmpleados : Form
     {
-        public RegistrosEmp()
+        public RegistrosEmpleados()
         {
             InitializeComponent();
         }

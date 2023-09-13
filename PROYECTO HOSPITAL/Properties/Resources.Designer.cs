@@ -73,6 +73,16 @@ namespace PROYECTO_HOSPITAL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cama {
+            get {
+                object obj = ResourceManager.GetObject("cama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChristusHospBanner {
             get {
                 object obj = ResourceManager.GetObject("ChristusHospBanner", resourceCulture);
@@ -106,6 +116,26 @@ namespace PROYECTO_HOSPITAL.Properties {
         internal static System.Drawing.Bitmap empleado {
             get {
                 object obj = ResourceManager.GetObject("empleado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap examenes_de_salud {
+            get {
+                object obj = ResourceManager.GetObject("examenes-de-salud", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap examenes_de_salud1 {
+            get {
+                object obj = ResourceManager.GetObject("examenes-de-salud1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

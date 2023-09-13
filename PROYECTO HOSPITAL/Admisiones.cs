@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PROYECTO_HOSPITAL
 {
-    public partial class RegistrosPac : Form
+    public partial class Admisiones : Form
     {
-        public RegistrosPac()
+        public Admisiones()
         {
             InitializeComponent();
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

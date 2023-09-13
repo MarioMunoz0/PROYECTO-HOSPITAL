@@ -93,9 +93,9 @@
             // pictureBox8
             // 
             pictureBox8.Image = Properties.Resources.salida;
-            pictureBox8.Location = new Point(13, 326);
+            pictureBox8.Location = new Point(45, 319);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(54, 44);
+            pictureBox8.Size = new Size(46, 51);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 16;
             pictureBox8.TabStop = false;
@@ -103,7 +103,7 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = Properties.Resources.editar;
+            pictureBox6.Image = Properties.Resources.examenes_de_salud1;
             pictureBox6.Location = new Point(13, 254);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(54, 44);
