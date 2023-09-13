@@ -32,5 +32,52 @@ namespace PROYECTO_HOSPITAL
         {
 
         }
+
+        private void label4_MouseEnter(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void label4_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Empleados();
+            formulario.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form formulario = new Login();
+            formulario.ShowDialog();
+        }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Empleados();
+            formulario.ShowDialog();
+        }
     }
 }

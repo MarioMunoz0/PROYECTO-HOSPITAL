@@ -30,22 +30,22 @@
         {
             panel1 = new Panel();
             panel2 = new Panel();
-            label8 = new Label();
             pictureBox8 = new PictureBox();
-            label6 = new Label();
             pictureBox6 = new PictureBox();
-            label7 = new Label();
             pictureBox7 = new PictureBox();
-            label5 = new Label();
             pictureBox5 = new PictureBox();
-            label4 = new Label();
+            button1 = new Button();
             pictureBox4 = new PictureBox();
+            button2 = new Button();
+            button3 = new Button();
             panel3 = new Panel();
             pictureBox2 = new PictureBox();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            btnEmpleados = new Button();
+            btnSalir = new Button();
             pictureBox3 = new PictureBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -73,39 +73,27 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(128, 255, 255);
-            panel2.Controls.Add(label8);
             panel2.Controls.Add(pictureBox8);
-            panel2.Controls.Add(label6);
             panel2.Controls.Add(pictureBox6);
-            panel2.Controls.Add(label7);
             panel2.Controls.Add(pictureBox7);
-            panel2.Controls.Add(label5);
             panel2.Controls.Add(pictureBox5);
-            panel2.Controls.Add(label4);
+            panel2.Controls.Add(button1);
             panel2.Controls.Add(pictureBox4);
+            panel2.Controls.Add(button2);
+            panel2.Controls.Add(button3);
             panel2.Controls.Add(panel3);
+            panel2.Controls.Add(btnEmpleados);
+            panel2.Controls.Add(btnSalir);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(250, 391);
             panel2.TabIndex = 7;
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.ForeColor = Color.Black;
-            label8.Location = new Point(55, 354);
-            label8.Name = "label8";
-            label8.Size = new Size(62, 26);
-            label8.TabIndex = 17;
-            label8.Text = "Salir";
-            label8.Click += label8_Click;
-            // 
             // pictureBox8
             // 
             pictureBox8.Image = Properties.Resources.salida;
-            pictureBox8.Location = new Point(6, 345);
+            pictureBox8.Location = new Point(13, 326);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(54, 44);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
@@ -113,90 +101,88 @@
             pictureBox8.TabStop = false;
             pictureBox8.Click += pictureBox8_Click;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.ForeColor = Color.Black;
-            label6.Location = new Point(53, 251);
-            label6.Name = "label6";
-            label6.Size = new Size(115, 26);
-            label6.TabIndex = 15;
-            label6.Text = "Examenes";
-            label6.Click += label6_Click;
-            // 
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.editar;
-            pictureBox6.Location = new Point(5, 242);
+            pictureBox6.Location = new Point(13, 254);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(54, 44);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 14;
             pictureBox6.TabStop = false;
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.ForeColor = Color.Black;
-            label7.Location = new Point(53, 201);
-            label7.Name = "label7";
-            label7.Size = new Size(129, 26);
-            label7.TabIndex = 13;
-            label7.Text = "Admisiones";
-            // 
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.registro;
-            pictureBox7.Location = new Point(3, 192);
+            pictureBox7.Location = new Point(13, 200);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(54, 44);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 12;
             pictureBox7.TabStop = false;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.Black;
-            label5.Location = new Point(53, 151);
-            label5.Name = "label5";
-            label5.Size = new Size(109, 26);
-            label5.TabIndex = 11;
-            label5.Text = "Pacientes";
-            // 
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.medico;
-            pictureBox5.Location = new Point(3, 142);
+            pictureBox5.Location = new Point(13, 146);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(54, 44);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 10;
             pictureBox5.TabStop = false;
             // 
-            // label4
+            // button1
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.Black;
-            label4.Location = new Point(53, 101);
-            label4.Name = "label4";
-            label4.Size = new Size(124, 26);
-            label4.TabIndex = 9;
-            label4.Text = "Empleados";
+            button1.BackColor = Color.FromArgb(128, 255, 255);
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(0, 248);
+            button1.Name = "button1";
+            button1.Size = new Size(250, 54);
+            button1.TabIndex = 8;
+            button1.Text = "Examenes";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.empleado;
-            pictureBox4.Location = new Point(3, 92);
+            pictureBox4.Location = new Point(12, 91);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(54, 44);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.MouseEnter += pictureBox4_MouseEnter;
+            pictureBox4.MouseLeave += pictureBox4_MouseLeave;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(128, 255, 255);
+            button2.Cursor = Cursors.Hand;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(0, 194);
+            button2.Name = "button2";
+            button2.Size = new Size(250, 54);
+            button2.TabIndex = 8;
+            button2.Text = "Admisiones";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(128, 255, 255);
+            button3.Cursor = Cursors.Hand;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(0, 140);
+            button3.Name = "button3";
+            button3.Size = new Size(250, 54);
+            button3.TabIndex = 18;
+            button3.Text = "Pacientes";
+            button3.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -265,6 +251,36 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // btnEmpleados
+            // 
+            btnEmpleados.BackColor = Color.FromArgb(128, 255, 255);
+            btnEmpleados.Cursor = Cursors.Hand;
+            btnEmpleados.FlatStyle = FlatStyle.Popup;
+            btnEmpleados.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnEmpleados.ForeColor = Color.Black;
+            btnEmpleados.Location = new Point(0, 86);
+            btnEmpleados.Name = "btnEmpleados";
+            btnEmpleados.Size = new Size(250, 54);
+            btnEmpleados.TabIndex = 19;
+            btnEmpleados.Text = "Empleados";
+            btnEmpleados.UseVisualStyleBackColor = false;
+            btnEmpleados.Click += btnEmpleados_Click;
+            // 
+            // btnSalir
+            // 
+            btnSalir.BackColor = Color.FromArgb(128, 255, 255);
+            btnSalir.Cursor = Cursors.Hand;
+            btnSalir.FlatStyle = FlatStyle.Popup;
+            btnSalir.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSalir.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSalir.Location = new Point(0, 302);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(250, 89);
+            btnSalir.TabIndex = 20;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += button5_Click;
+            // 
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
@@ -287,7 +303,6 @@
             Text = "Menu_Principal";
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -311,16 +326,16 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
-        private Label label6;
         private PictureBox pictureBox6;
-        private Label label7;
         private PictureBox pictureBox7;
-        private Label label5;
         private PictureBox pictureBox5;
-        private Label label4;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
-        private Label label8;
         private PictureBox pictureBox8;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button btnEmpleados;
+        private Button btnSalir;
     }
 }
