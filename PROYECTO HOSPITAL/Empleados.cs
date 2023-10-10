@@ -21,5 +21,11 @@ namespace PROYECTO_HOSPITAL
         {
             this.Close();
         }
+
+        private void btnInformes_Click(object sender, EventArgs e)
+        {
+            Form formulario = new RegistrosEmpleados();
+            formulario.Show();
+        }
     }
 }

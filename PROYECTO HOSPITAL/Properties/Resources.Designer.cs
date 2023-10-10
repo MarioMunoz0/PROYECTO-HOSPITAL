@@ -153,6 +153,26 @@ namespace PROYECTO_HOSPITAL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MedConnect_SF {
+            get {
+                object obj = ResourceManager.GetObject("MedConnect SF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MedConnect_SF1 {
+            get {
+                object obj = ResourceManager.GetObject("MedConnect SF1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap medico {
             get {
                 object obj = ResourceManager.GetObject("medico", resourceCulture);

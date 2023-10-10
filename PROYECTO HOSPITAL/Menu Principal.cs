@@ -64,7 +64,8 @@ namespace PROYECTO_HOSPITAL
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form formulario = new Examenes();
+            formulario.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -78,6 +79,23 @@ namespace PROYECTO_HOSPITAL
         {
             Form formulario = new Empleados();
             formulario.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Pacientes();
+            formulario.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Admisiones();
+            formulario.ShowDialog();
+        }
+
+        private void Menu_Principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

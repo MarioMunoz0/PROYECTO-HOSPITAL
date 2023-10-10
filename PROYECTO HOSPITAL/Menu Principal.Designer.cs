@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Principal));
             panel1 = new Panel();
             panel2 = new Panel();
             pictureBox8 = new PictureBox();
@@ -39,7 +40,6 @@
             button2 = new Button();
             button3 = new Button();
             panel3 = new Panel();
-            pictureBox2 = new PictureBox();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
@@ -55,7 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
@@ -170,6 +169,7 @@
             button2.TabIndex = 8;
             button2.Text = "Admisiones";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -183,12 +183,12 @@
             button3.TabIndex = 18;
             button3.Text = "Pacientes";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // panel3
             // 
             panel3.BackColor = Color.DarkTurquoise;
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(pictureBox2);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
             panel3.Controls.Add(label1);
@@ -197,16 +197,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(250, 86);
             panel3.TabIndex = 7;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.menu;
-            pictureBox2.Location = new Point(215, -1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(34, 31);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
             // 
             // label3
             // 
@@ -283,7 +273,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
+            pictureBox3.Image = Properties.Resources.MedConnect_SF;
             pictureBox3.Location = new Point(344, 74);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(377, 244);
@@ -299,9 +289,12 @@
             ClientSize = new Size(780, 391);
             Controls.Add(pictureBox3);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Menu_Principal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu_Principal";
+            Load += Menu_Principal_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
@@ -311,7 +304,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
@@ -326,7 +318,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private PictureBox pictureBox2;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
         private PictureBox pictureBox5;

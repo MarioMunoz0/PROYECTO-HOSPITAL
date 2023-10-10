@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             txtUsuario = new TextBox();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
@@ -38,6 +39,7 @@
             label3 = new Label();
             btnRegistro = new Button();
             label5 = new Label();
+            btnSalir = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -64,7 +66,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
+            pictureBox1.Image = Properties.Resources.MedConnect_SF;
             pictureBox1.Location = new Point(38, 88);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 146);
@@ -153,12 +155,26 @@
             label5.TabIndex = 13;
             label5.Text = "¿Ha olvidado su contraseña?";
             // 
+            // btnSalir
+            // 
+            btnSalir.BackColor = Color.FromArgb(224, 224, 224);
+            btnSalir.FlatStyle = FlatStyle.Flat;
+            btnSalir.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSalir.Location = new Point(567, 314);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(201, 40);
+            btnSalir.TabIndex = 14;
+            btnSalir.Text = "SALIR";
+            btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(780, 366);
+            Controls.Add(btnSalir);
             Controls.Add(label5);
             Controls.Add(btnRegistro);
             Controls.Add(label3);
@@ -169,6 +185,8 @@
             Controls.Add(panel1);
             Controls.Add(txtUsuario);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Hospital OBISPADO´S";
@@ -190,5 +208,6 @@
         private Button btnRegistro;
         private Label label5;
         private PictureBox pictureBox1;
+        private Button btnSalir;
     }
 }

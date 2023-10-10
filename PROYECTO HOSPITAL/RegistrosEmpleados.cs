@@ -16,5 +16,15 @@ namespace PROYECTO_HOSPITAL
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -21,5 +21,22 @@ namespace PROYECTO_HOSPITAL
         {
 
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Examenes();
+            formulario.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Habitaciones();
+            formulario.ShowDialog();
+        }
     }
 }

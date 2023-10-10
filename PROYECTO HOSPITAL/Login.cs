@@ -35,5 +35,10 @@ namespace PROYECTO_HOSPITAL
             formulario.ShowDialog();
             this.Hide();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

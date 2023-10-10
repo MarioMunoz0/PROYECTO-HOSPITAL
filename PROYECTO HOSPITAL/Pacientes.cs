@@ -16,5 +16,16 @@ namespace PROYECTO_HOSPITAL
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form formulario = new RegistrosPacientes();
+            formulario.ShowDialog();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

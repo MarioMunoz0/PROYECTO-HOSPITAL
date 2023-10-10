@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empleados));
             panel3 = new Panel();
             pictureBox2 = new PictureBox();
             label3 = new Label();
@@ -42,7 +43,6 @@
             pictureBox10 = new PictureBox();
             btnRegresar = new Button();
             panel5 = new Panel();
-            pictureBox15 = new PictureBox();
             label24 = new Label();
             label25 = new Label();
             label26 = new Label();
@@ -106,7 +106,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -224,7 +223,7 @@
             // 
             // pictureBox12
             // 
-            pictureBox12.Image = Properties.Resources.cropped_IMAGOTIPO_PRINCIPAL_COLOR_CORPORATIVO;
+            pictureBox12.Image = Properties.Resources.MedConnect_SF;
             pictureBox12.Location = new Point(40, 171);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(161, 103);
@@ -255,6 +254,7 @@
             btnInformes.TabIndex = 32;
             btnInformes.Text = "Informes";
             btnInformes.UseVisualStyleBackColor = false;
+            btnInformes.Click += btnInformes_Click;
             // 
             // pictureBox10
             // 
@@ -285,7 +285,6 @@
             // 
             panel5.BackColor = Color.DarkTurquoise;
             panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel5.Controls.Add(pictureBox15);
             panel5.Controls.Add(label24);
             panel5.Controls.Add(label25);
             panel5.Controls.Add(label26);
@@ -294,16 +293,6 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(250, 86);
             panel5.TabIndex = 7;
-            // 
-            // pictureBox15
-            // 
-            pictureBox15.Image = Properties.Resources.menu;
-            pictureBox15.Location = new Point(215, -1);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(34, 31);
-            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox15.TabIndex = 8;
-            pictureBox15.TabStop = false;
             // 
             // label24
             // 
@@ -884,6 +873,8 @@
             Controls.Add(panel2);
             Controls.Add(panel3);
             Controls.Add(panel6);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Empleados";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Empleados";
@@ -899,7 +890,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
@@ -953,7 +943,6 @@
         private Label label16;
         private Panel panel4;
         private Panel panel5;
-        private PictureBox pictureBox15;
         private Label label24;
         private Label label25;
         private Label label26;
