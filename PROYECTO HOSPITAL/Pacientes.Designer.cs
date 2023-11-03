@@ -36,11 +36,6 @@
             button4 = new Button();
             pictureBox10 = new PictureBox();
             btnRegresar = new Button();
-            panel5 = new Panel();
-            label24 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            pictureBox16 = new PictureBox();
             label8 = new Label();
             pictureBox8 = new PictureBox();
             label6 = new Label();
@@ -87,13 +82,15 @@
             label30 = new Label();
             textBox6 = new TextBox();
             label27 = new Label();
+            panel3 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -103,6 +100,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel6.SuspendLayout();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -129,12 +128,12 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(128, 255, 255);
+            panel4.Controls.Add(panel3);
             panel4.Controls.Add(pictureBox12);
             panel4.Controls.Add(pictureBox11);
             panel4.Controls.Add(button4);
             panel4.Controls.Add(pictureBox10);
             panel4.Controls.Add(btnRegresar);
-            panel4.Controls.Add(panel5);
             panel4.Dock = DockStyle.Left;
             panel4.Location = new Point(0, 0);
             panel4.Name = "panel4";
@@ -200,62 +199,6 @@
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = false;
             btnRegresar.Click += btnRegresar_Click;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.DarkTurquoise;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel5.Controls.Add(label24);
-            panel5.Controls.Add(label25);
-            panel5.Controls.Add(label26);
-            panel5.Controls.Add(pictureBox16);
-            panel5.Location = new Point(0, 0);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(250, 86);
-            panel5.TabIndex = 7;
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label24.ForeColor = Color.Black;
-            label24.Location = new Point(83, 49);
-            label24.Name = "label24";
-            label24.Size = new Size(137, 19);
-            label24.TabIndex = 3;
-            label24.Text = "Support@gmail.com";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label25.ForeColor = Color.Black;
-            label25.Location = new Point(83, 30);
-            label25.Name = "label25";
-            label25.Size = new Size(102, 19);
-            label25.TabIndex = 2;
-            label25.Text = "Jackson, Smith";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label26.ForeColor = Color.Black;
-            label26.Location = new Point(83, 11);
-            label26.Name = "label26";
-            label26.Size = new Size(98, 19);
-            label26.TabIndex = 1;
-            label26.Text = "Administrador";
-            // 
-            // pictureBox16
-            // 
-            pictureBox16.Image = Properties.Resources.img_337531;
-            pictureBox16.Location = new Point(1, 8);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(76, 67);
-            pictureBox16.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox16.TabIndex = 0;
-            pictureBox16.TabStop = false;
             // 
             // label8
             // 
@@ -728,6 +671,50 @@
             label27.TabIndex = 30;
             label27.Text = "Correo:";
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.DarkTurquoise;
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(label1);
+            panel3.Controls.Add(pictureBox1);
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(250, 86);
+            panel3.TabIndex = 45;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(120, 42);
+            label2.Name = "label2";
+            label2.Size = new Size(102, 19);
+            label2.TabIndex = 2;
+            label2.Text = "Jackson, Smith";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(122, 23);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 19);
+            label1.TabIndex = 1;
+            label1.Text = "Administrador";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.img_337531;
+            pictureBox1.Location = new Point(26, 11);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(76, 67);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
             // Pacientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -763,9 +750,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -777,6 +761,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -790,11 +777,6 @@
         private Button button4;
         private PictureBox pictureBox10;
         private Button btnRegresar;
-        private Panel panel5;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private PictureBox pictureBox16;
         private Label label8;
         private PictureBox pictureBox8;
         private Label label6;
@@ -841,5 +823,9 @@
         private Label label30;
         private TextBox textBox6;
         private Label label27;
+        private Panel panel3;
+        private Label label2;
+        private Label label1;
+        private PictureBox pictureBox1;
     }
 }

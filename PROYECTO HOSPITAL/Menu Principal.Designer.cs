@@ -40,7 +40,6 @@
             button2 = new Button();
             button3 = new Button();
             panel3 = new Panel();
-            label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -189,7 +188,6 @@
             // 
             panel3.BackColor = Color.DarkTurquoise;
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(pictureBox1);
@@ -198,23 +196,12 @@
             panel3.Size = new Size(250, 86);
             panel3.TabIndex = 7;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.Black;
-            label3.Location = new Point(83, 49);
-            label3.Name = "label3";
-            label3.Size = new Size(137, 19);
-            label3.TabIndex = 3;
-            label3.Text = "Support@gmail.com";
-            // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(83, 30);
+            label2.Location = new Point(120, 42);
             label2.Name = "label2";
             label2.Size = new Size(102, 19);
             label2.TabIndex = 2;
@@ -225,7 +212,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(83, 11);
+            label1.Location = new Point(122, 23);
             label1.Name = "label1";
             label1.Size = new Size(98, 19);
             label1.TabIndex = 1;
@@ -234,7 +221,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.img_337531;
-            pictureBox1.Location = new Point(1, 8);
+            pictureBox1.Location = new Point(26, 11);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(76, 67);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -315,7 +302,6 @@
         private Panel panel2;
         private Panel panel3;
         private PictureBox pictureBox1;
-        private Label label3;
         private Label label2;
         private Label label1;
         private PictureBox pictureBox6;
