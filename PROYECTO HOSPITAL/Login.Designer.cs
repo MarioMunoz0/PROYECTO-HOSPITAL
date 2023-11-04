@@ -38,7 +38,6 @@
             label2 = new Label();
             label3 = new Label();
             btnRegistro = new Button();
-            label5 = new Label();
             btnSalir = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -143,18 +142,6 @@
             btnRegistro.UseVisualStyleBackColor = false;
             btnRegistro.Click += btnRegistro_Click;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.White;
-            label5.Font = new Font("Century Gothic", 9.75F, FontStyle.Underline, GraphicsUnit.Point);
-            label5.ForeColor = Color.Blue;
-            label5.Location = new Point(416, 248);
-            label5.Name = "label5";
-            label5.Size = new Size(199, 17);
-            label5.TabIndex = 13;
-            label5.Text = "¿Ha olvidado su contraseña?";
-            // 
             // btnSalir
             // 
             btnSalir.BackColor = Color.FromArgb(224, 224, 224);
@@ -175,7 +162,6 @@
             BackColor = SystemColors.Control;
             ClientSize = new Size(780, 366);
             Controls.Add(btnSalir);
-            Controls.Add(label5);
             Controls.Add(btnRegistro);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -206,7 +192,6 @@
         private Label label2;
         private Label label3;
         private Button btnRegistro;
-        private Label label5;
         private PictureBox pictureBox1;
         private Button btnSalir;
     }
